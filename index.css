@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+}
+
+.project-section .list-group-item.active {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.services-section .btn-light {
+    background-color: #fff;
+    color: #ff0000;
+}
+
+.marketing-section .btn-danger {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.text-danger {
+    color: #ff0000 !important;
+}
+
+.growth-section .growth-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.growth-section .icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.growth-section h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.growth-section p {
+    color: #666;
+}
+
+.why-choose-us .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.why-choose-us .why-choose-img {
+    width: 100px; /* Set your desired width */
+    height: 100px; /* Set your desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover the given dimension */
+    margin-bottom: 15px; /* Space between the image and the text */
+}
+
+.why-choose-us .col-md-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.clients-feedback {
+    background-color: #f8f9fa;
+}
+
+.clients-feedback h6 {
+    color: #dc3545;
+}
+
+.clients-feedback p {
+    color: #6c757d;
+}
+
+.footer {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.footer img {
+    max-width: 100px;
+    margin: 10px 0;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: -350px; /* Adjust this value to position the dots below the carousel */
+    left: 0;
+    width: 100%;
+    text-align: left; /* Align the dots to the left */
+    margin-left: 20px; 
+    margin-right: 500px;/* Adjust this value to fine-tune the left alignment */
+}
+
+.carousel-indicators li {
+    background-color: #b8b8b8; /* Color of the dot */
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 2px solid #ff0000;
+}
+.carousel-indicators .active {
+    background-color: #fe0000; /* Color of the active dot */
+}
+.changer{
+    padding-top: 150px;
+}
+#contactUsModal .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#contactUsModal .form-check-input {
+    margin-top: 5px;
+}
+
+#contactUsModal .form-check-label {
+    margin-left: 10px;
+}
+
+#contactUsModal .btn-danger {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: #FF3B30;
+}
+.list-group{
+    padding-top: 50px;
+}
+.carousel-indicators {
+    position: absolute;
+    left: 10px; /* Adjust this value to position horizontally */
+    bottom: -450px; /* Adjust this value to position vertically */
+    z-index: 15;
+    width: auto;
+    margin-left: 0;
+    margin-right: 70%;
+}
+.carousel-indicators li {
+    background-color: #000; /* Customize the indicator color */
+}
+
+.services-section p{
+    align-items: right;
+    justify-content: right;
+
+}
+.list-group-item {
+    cursor: pointer;
+}
+.aps{
+    display: flex;
+    padding-top: 10px;
+}
+.aps p{
+    padding-left: 30%;
+}
+.growth-card:hover {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5); /* Add a shadow outline on hover */
+    /* Alternatively, use outline property */
+    /* outline: 2px solid rgba(0, 0, 0, 0.5); */
+}
+

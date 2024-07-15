@@ -8,22 +8,23 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!-- Section: Digital Marketing Agency -->
-    <section class="marketing-section py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h6 class="text-danger">AWARD WINNING</h6>
-                    <h2 class="font-weight-bold">DIGITAL MARKETING AGENCY</h2>
-                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh.</p>
-                    <a href="#" class="btn btn-danger">CONTACT US</a>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/Marketing.png" class="img-fluid" alt="Marketing Image">
-                </div>
+<!-- Section: Digital Marketing Agency -->
+<section class="marketing-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h6 class="text-danger">AWARD WINNING</h6>
+                <h2 class="font-weight-bold">DIGITAL MARKETING AGENCY</h2>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh.</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#contactUsModal">CONTACT US</button>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/Marketing.png" class="img-fluid" alt="Marketing Image">
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- Contact Us Modal -->
 <div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="contactUsModalLabel" aria-hidden="true">
@@ -36,7 +37,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form id="ajaxForm" action="https://getform.io/f/blljyeqb">
+                <form id="ajaxForm" action="https://getform.io/f/blljyeqb" method="post">
                     <div class="form-group">
                         <label for="workEmail">Work email*</label>
                         <input type="email" class="form-control" id="workEmail" name="workEmail" required>
